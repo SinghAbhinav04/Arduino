@@ -117,7 +117,6 @@ Arduino is an open-source electronics platform based on easy-to-use hardware and
   }
 ### Loop Function: Contains the main code that runs repeatedly.
 
-```cpp
 void loop() {
   // Repeated code
 }
@@ -125,14 +124,12 @@ void loop() {
 
 Read or write digital signals.
 
-```cpp
 digitalWrite(pin, HIGH);
 int value = digitalRead(pin);
 ## Analog Read/Write
 
 Read analog input or write analog output using PWM.
 
-```cpp
 int sensorValue = analogRead(A0);
 analogWrite(pin, value);
 
@@ -142,7 +139,6 @@ analogWrite(pin, value);
 
 React to asynchronous events.
 
-```cpp
 attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);
 ## Timers and Counters
 
@@ -154,7 +150,6 @@ Control timing without blocking code execution.
 
 Extend functionality with custom libraries.
 
-```cpp
 #include <LibraryName.h>
 ## Memory Management
 
